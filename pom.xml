@@ -791,6 +791,17 @@
                 <artifactId>broker-core</artifactId>
                 <version>${broker.version}</version>
             </dependency>
+            <!-- ballerina extensions -->
+            <dependency>
+                <groupId>org.ballerinalang</groupId>
+                <artifactId>docker-extenstion</artifactId>
+                <version>${ballerina.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ballerinalang</groupId>
+                <artifactId>kubernetes-extenstion</artifactId>
+                <version>${ballerina.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -905,6 +916,9 @@
                 <module>misc/toml-parser</module>
                 <module>composer</module>
 
+                <module>extensions/docker</module>
+                <module>extensions/kubernetes</module>
+
                 <module>distribution/docker</module>
                 <module>distribution/zip/ballerina</module>
                 <module>distribution/zip/ballerina-tools</module>
@@ -982,6 +996,9 @@
                 <module>misc/testerina</module>
                 <module>misc/toml-parser</module>
                 <module>composer</module>
+
+                <module>extensions/docker</module>
+                <module>extensions/kubernetes</module>
 
                 <module>distribution/docker</module>
                 <module>distribution/zip/ballerina</module>
