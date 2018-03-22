@@ -197,6 +197,10 @@
                 <include>io.ballerina.messaging:broker-common:jar</include>
                 <include>io.ballerina.messaging:broker-core:jar</include>
 
+                <!-- ballerinax extensions -->
+                <include>org.ballerinalang:docker-extenstion:jar</include>
+                <include>org.ballerinalang:kubernetes-extenstion:jar</include>
+
             </includes>
         </dependencySet>
 

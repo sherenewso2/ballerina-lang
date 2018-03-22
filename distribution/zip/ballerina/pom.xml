@@ -159,7 +159,14 @@
             <groupId>io.dropwizard.metrics</groupId>
             <artifactId>metrics-core</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.ballerinalang</groupId>
+            <artifactId>docker-extenstion</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.ballerinalang</groupId>
+            <artifactId>kubernetes-extenstion</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -177,7 +184,7 @@
                         </goals>
                         <configuration>
                             <includeArtifactIds>
-                                ballerina-builtin,ballerina-http,ballerina-grpc,ballerina-mime,ballerina-logging
+                                ballerina-builtin,ballerina-http,ballerina-grpc,ballerina-mime,ballerina-logging,ballerina,docker-extenstion,kubernetes-extenstion
                             </includeArtifactIds>
                             <outputDirectory>${project.build.directory}/extracted-distributions
                             </outputDirectory>

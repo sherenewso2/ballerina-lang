@@ -94,14 +94,6 @@
             <artifactId>ballerina</artifactId>
             <type>zip</type>
         </dependency>
-        <dependency>
-            <groupId>org.ballerinalang</groupId>
-            <artifactId>docker-extenstion</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.ballerinalang</groupId>
-            <artifactId>kubernetes-extenstion</artifactId>
-        </dependency>
     </dependencies>
 
     <build>
@@ -119,7 +111,7 @@
                         </goals>
                         <configuration>
                             <includeArtifactIds>
-                                composer-server-distribution,ballerina-composer-web,testerina-core,connectors,ballerina,docker-extenstion,kubernetes-extenstion
+                                composer-server-distribution,ballerina-composer-web,testerina-core,connectors
                             </includeArtifactIds>
                             <outputDirectory>${project.build.directory}/extracted-distributions
                             </outputDirectory>
