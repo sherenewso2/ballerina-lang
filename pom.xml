@@ -794,12 +794,12 @@
             <!-- ballerina extensions -->
             <dependency>
                 <groupId>org.ballerinalang</groupId>
-                <artifactId>docker-extenstion</artifactId>
+                <artifactId>docker-extension</artifactId>
                 <version>${ballerina.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.ballerinalang</groupId>
-                <artifactId>kubernetes-extenstion</artifactId>
+                <artifactId>kubernetes-extension</artifactId>
                 <version>${ballerina.version}</version>
             </dependency>
         </dependencies>
