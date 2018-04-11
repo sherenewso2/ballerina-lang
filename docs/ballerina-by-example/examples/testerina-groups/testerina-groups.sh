@@ -1,3 +1,5 @@
+#At the command line, navigate to the directory that contains the 
+#`.bal` file and run the `ballerina test` command.
 $ ballerina test testerina-groups.bal --groups g1,g2
 ---------------------------------------------------------------------------
     T E S T S
